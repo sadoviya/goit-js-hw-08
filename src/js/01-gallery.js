@@ -18,4 +18,9 @@ function createGalleryItem(items) {
     .join('');
 }
 
-new SimpleLightbox('.gallery a', { captionDelay: 250 });
+new SimpleLightbox('.gallery a', {
+  captionDelay: 0,
+  animationSpeed: 125,
+  fadeSpeed: 125,
+  animationSlide: false,
+});
